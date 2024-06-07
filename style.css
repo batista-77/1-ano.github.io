@@ -1,0 +1,27 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffcccb;
+    text-align: center;
+    padding: 50px;
+}
+h1 {
+    color: #ff1493;
+}
+p {
+    font-size: 1.5em;
+}
+img {
+    width: 300px;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+.heart {
+    color: red;
+    font-size: 2em;
+    animation: beat 1s infinite alternate;
+}
+@keyframes beat {
+    to {
+        transform: scale(1.2);
+    }
+}
